@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="file.js"></script>
+</head>
+<body>
+    <form  action="" method="post">
+        <table border="1" callspacing="2" cellpadding="2" width="300">
+            <th colspan="2">Enrollment</th>
+            <tr>
+               
+            <tr>
+                <td>Email </td>
+                <td><input type="Email" name="fname" placeholder="enter your Email id;" required></td>
+            </tr>
+            <tr>
+                <td>DOB </td>
+                <td><input type="date" name="dob" placeholder="enter your birth date" required></td>
+            </tr>
+            <tr>
+                <td>upload image </td>
+                <td><input type="file" name="fname" placeholder="enter your first name" required></td>
+            </tr>
+            <tr>
+                <td>Gender </td>
+                    <td>
+                        <input type="radio" name="gender" id="male" 
+                        value="male">Male
+                        <input type="radio" name="gender" id="female" 
+                        value="female">female
+                        <input type="radio" name="gender" id="others" 
+                        value="others">others
+                    </td>
+            </tr>
+            <tr>
+                <td>Hobies</td>
+                <td>
+                    <input type="checkbox" name="music" id="music" value="music">Music
+                    <input type="checkbox" name="sports" id="sports" value="sports">sports
+                    <input type="checkbox" name="reading" id="reading" value="reading">reading
+                    <input type="checkbox" name="movies" id="movies" value="movies">movies
+                </td>
+            </tr>
+            <td> country</td>
+            <td>
+                <select name="country" id="country">
+                    <option value="india">india</option>
+                    <option value="uk">uk</option>
+                    <option value="canada">canada</option>
+                    <option value="enganld">enganad</option>
+                    <option value="france">france</option>
+                </select>
+            </td>
+            <tr>
+                <td> comments</td>
+                <td>
+                    <textarea name="" id="" cols="30" rows="10"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="submit"name="submit" value="register">
+                    <input type="reset"name="reset" value="reset">
+                </td>
+            </tr>
+            
+        </table> 
+    </form>
+    
+</body>
+</html>
